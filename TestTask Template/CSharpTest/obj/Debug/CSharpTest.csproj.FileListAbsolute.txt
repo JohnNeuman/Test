@@ -1,0 +1,8 @@
+D:\work\Новая папка\TestTask-Template.Dynamics-Education-1\TestTask Template\CSharpTest\bin\Debug\CSharpTest.dll
+D:\work\Новая папка\TestTask-Template.Dynamics-Education-1\TestTask Template\CSharpTest\bin\Debug\CSharpTest.pdb
+D:\work\Новая папка\TestTask-Template.Dynamics-Education-1\TestTask Template\CSharpTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\work\Новая папка\TestTask-Template.Dynamics-Education-1\TestTask Template\CSharpTest\obj\Debug\CSharpTest.csprojAssemblyReference.cache
+D:\work\Новая папка\TestTask-Template.Dynamics-Education-1\TestTask Template\CSharpTest\obj\Debug\CSharpTest.csproj.CoreCompileInputs.cache
+D:\work\Новая папка\TestTask-Template.Dynamics-Education-1\TestTask Template\CSharpTest\obj\Debug\CSharpTest.csproj.CopyComplete
+D:\work\Новая папка\TestTask-Template.Dynamics-Education-1\TestTask Template\CSharpTest\obj\Debug\CSharpTest.dll
+D:\work\Новая папка\TestTask-Template.Dynamics-Education-1\TestTask Template\CSharpTest\obj\Debug\CSharpTest.pdb
