@@ -13,11 +13,27 @@ namespace CSharpTest
             DateTime currDate = startDate;
             int weekInterval = 0;
             bool isWeekEnd;
-            dayCount--;
+            isWeekEnd = false;
+            if (!(weekEnds is null))
+            {
+                for (int i = 0; i < weekEnds.Length; i++)
+                {
+                    if ((!isWeekEnd) && (weekEnds[i].StartDate <= startDate) && (weekEnds[i].EndDate >= startDate))
+                    {
+                        isWeekEnd = true;
+                    }
+                }    
+            }
+            if (!isWeekEnd)
+            {
+                dayCount--;
+            }
+
             if (!(weekEnds is null))
             {
                 while (dayCount > 0)
                 {
+                    currDate = currDate.AddDays(1);
                     isWeekEnd = false;
                     for (int i = weekInterval; i < weekEnds.Length; i++)
                     {
@@ -25,13 +41,11 @@ namespace CSharpTest
                         {
                             isWeekEnd = true;
                             weekInterval = i;
-                            currDate = currDate.AddDays(1);
                         }
                     }
                     if (!isWeekEnd)
                     {
                         dayCount--;
-                        currDate = currDate.AddDays(1);
                     }
                 }
             }
